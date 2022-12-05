@@ -73,6 +73,12 @@ a {
   margin-bottom: 2rem;
 }
 
+.group-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
 /* Profile - Top Section */
 
 .profile_container {
@@ -128,4 +134,21 @@ a {
   margin-top: 1rem;
   margin-left: 2rem;
   line-height: 2;
+}
+
+/* Reference */
+
+.ref_item {
+  margin-top: 2rem;
+}
+
+.ref_name {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Education */
+
+.edu_item {
+  margin-top: 2rem;
 }
