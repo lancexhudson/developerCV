@@ -32,11 +32,18 @@ a {
   color: white;
 }
 
-.profile_description {
+.description {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--text-color);
+}
+
+.title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 /* Layouts */
@@ -104,4 +111,21 @@ a {
   text-decoration: underline;
   font-size: 1.6rem;
   margin-top: 1rem;
+}
+.downloadBtn:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .profile_container {
+    flex-direction: column;
+  }
+}
+
+/* Skills */
+
+.skill_list {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  line-height: 2;
 }
