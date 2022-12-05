@@ -98,3 +98,10 @@ a {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.downloadBtn {
+  display: block;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
