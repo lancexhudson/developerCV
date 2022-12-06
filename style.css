@@ -46,6 +46,25 @@ a {
   text-transform: uppercase;
 }
 
+.item_preTitle {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  font-weight: 300;
+}
+
+.item_subtitle {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.item_title {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+
 /* Layouts */
 
 .container {
@@ -73,7 +92,8 @@ a {
   margin-bottom: 2rem;
 }
 
-.group-1 {
+.group-1,
+.group-2 {
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -151,4 +171,46 @@ a {
 
 .edu_item {
   margin-top: 2rem;
+}
+
+/* Certifications */
+
+.certification_item {
+  margin-top: 2rem;
+}
+
+/* Experience */
+
+.exp_item {
+  margin-top: 2rem;
+}
+
+/* Untitled  */
+
+.untitled_item {
+  margin-top: 2rem;
+}
+
+/* Interest */
+
+.interest_items {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.interest_item {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-color);
+}
+
+.interest_item svg {
+  width: 2rem;
 }
