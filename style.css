@@ -99,6 +99,29 @@ a {
   gap: 5rem;
 }
 
+.group-3 {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.group-3 > div {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    margin-bottom: 0;
+  }
+  .group-3 {
+    flex-direction: column;
+  }
+}
+
 /* Profile - Top Section */
 
 .profile_container {
@@ -213,4 +236,45 @@ a {
 
 .interest_item svg {
   width: 2rem;
+}
+
+/* Social */
+
+.social_item {
+  margin-top: 2rem;
+}
+
+.social_item {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color);
+}
+
+.social_item:hover {
+  color: var(--primary-color);
+}
+.social_item svg {
+  width: 2rem;
+}
+
+/* HR grey bar*/
+
+hr {
+  grid-column: 1/-1;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 2px solid rgba(128, 128, 128, 0.304);
+}
+
+@media only screen and (max-width: 768px) {
+  hr {
+    margin: 0 auto;
+  }
 }
