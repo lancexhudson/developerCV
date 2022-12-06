@@ -100,7 +100,8 @@ a {
 }
 
 .group-3 {
-  max-width: 700px;
+  max-width: 900px;
+  /* max-width: 700px; was size for v1.0 */
   width: 100%;
   margin: 0 auto;
   grid-column: 1/-1;
@@ -237,6 +238,8 @@ a {
 .interest_item svg {
   width: 2rem;
 }
+
+/* Contact */
 
 /* Social */
 
