@@ -39,6 +39,13 @@ a {
   color: var(--text-color);
 }
 
+.description_ref {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400rem;
+  color: var(--text-color);
+}
+
 .title {
   color: var(--primary-color);
   font-weight: 700;
@@ -63,6 +70,24 @@ a {
   color: white;
   font-weight: 500;
   margin: 0.8rem 0;
+}
+
+.item_title_edu {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+
+.item_title_edu:hover {
+  color: var(--primary-color);
+}
+
+.item_description {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  font-weight: 400;
 }
 
 /* Layouts */
@@ -182,6 +207,20 @@ a {
 
 /* Reference */
 
+.ref_link {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color);
+}
+
+.ref_link:hover {
+  color: var(--primary-color);
+}
+
 .ref_item {
   margin-top: 2rem;
 }
@@ -190,6 +229,20 @@ a {
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+/* .ref_link {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color);
+}
+
+.ref_link:hover {
+  color: var(--primary-color);
+} */
 
 /* Education */
 
