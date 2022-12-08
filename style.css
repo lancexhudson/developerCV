@@ -206,43 +206,7 @@ a {
 }
 
 /* Reference */
-
-.ref_link {
-  margin-top: 0.5rem;
-  font-size: 1.5rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: flex-start;
-  color: var(--text-color);
-}
-
-.ref_link:hover {
-  color: var(--primary-color);
-}
-
-.ref_item {
-  margin-top: 2rem;
-}
-
-.ref_name {
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-
-/* .ref_link {
-  margin-top: 0.5rem;
-  font-size: 1.5rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: flex-start;
-  color: var(--text-color);
-}
-
-.ref_link:hover {
-  color: var(--primary-color);
-} */
+/* THIS WAS THE ORIGINAL REFERENCE SECTION */
 
 /* Education */
 
@@ -404,17 +368,58 @@ p img {
   }
 }
 
+/* TEST UNTITLED SECTION*/
+.untitled_item {
+  margin-top: 2rem;
+}
+
 /* Experience */
 
 .exp_item {
   margin-top: 2rem;
 }
 
-/* Untitled  */
+/* TEST REFERENCE CSS */
 
-.untitled_item {
+.ref_link {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color);
+}
+
+.ref_link:hover {
+  color: var(--primary-color);
+}
+
+.ref_item {
   margin-top: 2rem;
 }
+
+.ref_name {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* .ref_link {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color);
+}
+
+.ref_link:hover {
+  color: var(--primary-color);
+} */
+
+/* Untitled  */
+/* ORIGINAL UNTITLED LOCATION */
 
 /* Interest */
 
