@@ -125,6 +125,8 @@ a {
 }
 
 .group-3 {
+  /* display: flex;
+  justify-content: space-around; */
   max-width: 900px;
   /* max-width: 700px; was size for v1.0 */
   width: 100%;
@@ -182,14 +184,29 @@ a {
 }
 
 .downloadBtn {
-  display: block;
+  /* display: flex;
+  justify-content: flex-end; */
   text-decoration: underline;
   font-size: 1.6rem;
+  font-weight: 50;
   margin-top: 1rem;
 }
 .downloadBtn:hover {
   color: var(--primary-color);
 }
+
+.download_about {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  font-weight: 50;
+  margin-top: 1rem;
+}
+
+/* .download_about:hover {
+  color: var(--primary-color);
+} */
 
 @media only screen and (max-width: 768px) {
   .profile_container {
