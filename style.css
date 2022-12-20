@@ -372,6 +372,37 @@ a {
   }
 }
 
+.modal_rdk_img {
+  background-color: black;
+  color: var(--text-color);
+  margin-top: 1.5rem;
+}
+
+.row_rdk {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_rdk {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column_rdk img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column_rdk {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
 .btn {
   margin-top: 1rem;
   cursor: pointer;
