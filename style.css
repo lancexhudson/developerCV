@@ -551,6 +551,7 @@ p img {
   /* Scroll bar below */
   overflow-y: auto;
   max-height: 50rem;
+  padding-right: 1rem;
 }
 
 .title_web3 {
