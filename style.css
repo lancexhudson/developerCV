@@ -537,6 +537,10 @@ p img {
 /* .about_this_cv_content {
 } */
 
+.i {
+  font-style: italic;
+}
+
 .about_cv {
   margin-top: 1rem;
 }
