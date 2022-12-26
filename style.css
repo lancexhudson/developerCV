@@ -644,8 +644,7 @@ p img {
   right: 0;
   bottom: 0;
   left: 0;
-  /* display: flex; */
-  /* text-align: left; */
+
   height: auto;
   width: 50%;
   height: fit-content;
