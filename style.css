@@ -246,9 +246,6 @@ a {
   line-height: 2;
 }
 
-/* Reference */
-/* THIS WAS THE ORIGINAL REFERENCE SECTION */
-
 /* Education */
 
 .edu_item {
@@ -365,15 +362,16 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .modal__inner {
+  .modal .modal__inner {
     width: 90%;
-    height: 90%;
+    /* height: 90%; */
+    max-height: 100%;
     box-sizing: border-box;
   }
 }
 
-.modal_rdk_img {
-  background-color: black;
+.modal_class_rdk {
+  background-color: white;
   color: var(--text-color);
   margin-top: 1.5rem;
 }
@@ -400,6 +398,7 @@ a {
   .column_rdk {
     flex: 50%;
     max-width: 50%;
+    /* max-height: 100%; */
   }
 }
 
@@ -433,7 +432,8 @@ p img {
 @media screen and (max-width: 768px) {
   .modal__inner {
     width: 90%;
-    height: 90%;
+    max-height: 100%;
+    /* height: 90%; */
     box-sizing: border-box;
   }
 }
@@ -480,7 +480,6 @@ p img {
 } */
 
 /* Untitled  */
-/* ORIGINAL UNTITLED LOCATION */
 
 .ref_link_formatBtn {
   text-decoration: underline;
@@ -507,7 +506,7 @@ p img {
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 2rem;
 }
 
@@ -533,9 +532,6 @@ p img {
 }
 
 /* About */
-
-/* .about_this_cv_content {
-} */
 
 .i {
   font-style: italic;
@@ -605,7 +601,6 @@ p img {
   left: 0;
   text-align: center;
   max-width: 100%;
-  /* max-height: fit-content; */
   background: rgba(0, 0, 0, 0.9);
   transition: opacity 0.25s ease;
 }
@@ -632,11 +627,6 @@ p img {
   top: 0;
 }
 
-/* .modal_ethereum_img {
-  width: 100%;
-  height: auto;
-} */
-
 .modal__inner_web3 {
   transition: top 0.25s ease;
   position: absolute;
@@ -644,7 +634,6 @@ p img {
   right: 0;
   bottom: 0;
   left: 0;
-
   height: auto;
   width: 50%;
   height: fit-content;
@@ -658,7 +647,6 @@ p img {
 
 .modal__close_web3 {
   position: sticky;
-  /* align-items: center; */
   right: 1em;
   top: 1em;
   width: 1.1em;
@@ -691,9 +679,9 @@ p img {
 }
 
 @media screen and (max-width: 768px) {
-  .modal__inner_web3 {
+  .modal_web3 .modal__inner_web3 {
     width: 90%;
-    height: 90%;
+    max-height: 100%;
     box-sizing: border-box;
   }
 }
