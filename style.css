@@ -483,10 +483,12 @@ p img {
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   /* flex-wrap: nowrap; */
   white-space: nowrap;
   gap: 2rem;
+  /* overflow-x: hidden; */
 }
 
 .interest_item {
