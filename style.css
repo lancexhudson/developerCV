@@ -484,7 +484,7 @@ p img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: nowrap; */
   white-space: nowrap;
   gap: 2rem;
