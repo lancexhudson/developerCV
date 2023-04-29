@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
 
 * {
   padding: 0;
@@ -316,7 +316,7 @@ a {
 
 .modal__close:after,
 .modal__close:before {
-  content: "";
+  content: '';
   position: absolute;
   align-self: flex-end;
   width: 2px;
@@ -637,7 +637,7 @@ p img {
 
 .modal__close_web3:after,
 .modal__close_web3:before {
-  content: "";
+  content: '';
   position: absolute;
   align-self: flex-end;
   width: 2px;
