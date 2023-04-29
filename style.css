@@ -72,6 +72,13 @@ a {
   margin: 0.8rem 0;
 }
 
+.item_title_link {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+
 .item_title_edu {
   /* margin-top: 6.5rem; */
   font-size: 1.6rem;
@@ -80,7 +87,8 @@ a {
   margin: 0.8rem 0;
 }
 
-.item_title_edu:hover {
+.item_title_edu:hover,
+.item_title_link:hover {
   color: var(--primary-color);
 }
 
@@ -532,7 +540,9 @@ p img {
   /* Scroll bar below */
   overflow-y: auto;
   max-height: 50rem;
-  padding-right: 1rem;
+  /* padding right changed due to scroll bar covering text on 4/29/2023 */
+  /* padding-right: 1rem; */
+  padding: 1.2rem 1.2rem;
 }
 
 .title_web3 {
