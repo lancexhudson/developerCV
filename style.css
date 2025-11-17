@@ -200,6 +200,58 @@ a {
   margin-top: 1rem;
 }
 
+.download_resume {
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-color);
+  cursor: pointer;
+  display: inline-flex; /* or flex / inline-block */
+  align-items: center;
+  position: relative; /* needed for the pseudo-element */
+  text-decoration: none; /* start with no decoration */
+  transition: color 0.2s ease;
+}
+
+/* Color change on hover over the entire container */
+.download_resume:hover {
+  color: var(--primary-color);
+}
+
+/* The actual strikethrough line — only appears over the text */
+.download_resume::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px; /* thickness of the line */
+  background: currentColor; /* matches the text color */
+  transform: scaleX(0); /* hidden by default */
+  transform-origin: left center;
+  transition: transform 0.18s ease;
+  pointer-events: none; /* lets the mouse pass through */
+}
+
+/* When hovering directly over the text nodes, show the line */
+.download_resume:hover::after {
+  transform: scaleX(1);
+}
+
+/* BONUS: If you have an icon (like ↓) inside and want the line to stop before it,
+   wrap only the text in a <span class="text-only">…</span> and use this instead: */
+
+.text-only {
+  position: relative;
+  z-index: 1;
+}
+
+/* Then change the ::after selector to: */
+.download_resume:hover .text-only::after {
+  transform: scaleX(1);
+}
+
 .download {
   gap: 0.5rem;
   margin-top: 1rem;
